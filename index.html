@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Need a mentor </title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
+
+    <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components/footer.css">
+    <link rel="stylesheet" href="css/components/banner.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6),rgba(0,36,61,0.6)), url('images/warren_buffett.jpg');">
+            <div class="banner-content">
+                <h1>NEED A BADASS MENTOR ?</h1>
+                    <p>Learn from others mistakes
+                    </p>
+                      <a href="http://www.suredividend.com/warren-buffett-quotes/" class="btn-green">Start Learning
+                      </a>
+            </div>
+      </div>
+    <!-- Your banner code -->
+<div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6),rgba(0,36,61,0.6)), url('images/carte_du_monde.jpg');">
+     <div class="text-center padded">
+          <h1>DISCOVER THE BUSINESS WORLD</h1>
+    </div>
+</div>
+<div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6),  rgba(0,36,61,0.6)), url('images/saut.jpg');">
+      <div class="text-center padded">
+          <h1>MEET THE RIGHT PEOPLE</h1>
+      </div>
+</div>
+<div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6),  rgba(0,36,61,0.6)), url('images/disque.jpg');">
+      <div class="text-center padded">
+          <h1>SHARE AND LOVE </h1>
+      </div>
+</div>
+
+<div class="wrapper-grey padded">
+  <div class="container">
+      <h2 class="text-center">Testimonials</h2>
+          <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                  <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3) rgba(0,0,0,0.2)), url('images/Empire_State_Building.jpg');">
+                          <div class="card-category">Louis</div>
+                              <div class="card-description">
+                                  <h2>Louis'testimonial </h2>
+                                      <p>Thanks to BadassMentor I have met Seb and Romain. Now, I manage 15 bootcamps everywhere in the world.</p>
+                              </div>
+                                  <img class="card-user avatar avatar-large" src="images/Louis.jpg">
+                                  <a class="card-link" href="#"></a>
+                  </div>
+              </div>
+
+
+              <div class="col-xs-12 col-sm-6">
+                  <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3) rgba(0,0,0,0.2)), url('images/Empire_State_Building.jpg');">
+                        <div class="card-category">Nicolas</div>
+                            <div class="card-description">
+                                <h2>Nicolas' testimonial</h2>
+                                      <p>BadassMentor allows me to start my career at "Le Wagon". I learned make people cry blood. I am proud of that.  </p>
+                              </div>
+                                <img class="card-user avatar avatar-large" src="images/Nicolas.jpg">
+                                <a class="card-link" href="#"></a>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+
+  <div id="newsletter" class="text-center padded">
+      <h1>Get news from us</h1>
+          <p>Leave us your mail and get news from us</p>
+  <form action='/' class='form-inline'>
+      <input type='email' class='form-control' placeholder='bob@gmail.com'>
+      <input type='submit' value='subscribe' class='btn btn-primary'
+  </form>
+  </div>
+
+  <div class="footer">
+    <ul class="list-inline">
+      <li>
+        <a href="" target="blank">
+            <i class="fa fa-facebook"></i>
+            Facebook
+        </a>
+      </li>
+     <li>
+        <a href="" target="blank">
+            <i class="fa fa-twitter"></i>
+            Twitter
+        </a>
+      </li>
+       <li>
+        <a href="" target="blank">
+            <i class="fa fa-linkedin"></i>
+            Linkedin
+        </a>
+      </li>
+       <li>
+        <a href="" target="blank">
+            <i class="fa fa-github"></i>
+            Github
+        </a>
+      </li>
+    </ul>
+    <p>This is BadassMentor</p>
+  </div>
+  <div id="map" style="width: 100%; height: 400px;"></div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript">
+var myLatlng = new google.maps.LatLng(48.8655909, 2.378983);
+
+var myOptions = {
+  zoom: 16,
+  center: myLatlng,
+  scrollwheel: false,
+  mapTypeId: google.maps.MapTypeId.ROADMAP,
+  styles: [] // TODO: replace [] by array from https://snazzymaps.com/
+};
+
+var map = new google.maps.Map(document.getElementById('map'), myOptions);
+var marker = new google.maps.Marker({
+  position: myLatlng,
+  map: map,
+  title: "You are here!"
+});
+</script>
+
+
+    <!-- Your features code -->
+
+    <!-- Your newsletter code -->
+
+    <!-- Your footer code -->
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
